@@ -12,8 +12,8 @@ Public Class FormKHS
         Call Tampil()
     End Sub
     Sub Tambah()
-        lblNilaiAngka.Text = Val(txtNilaiAbsen.Text) * 0.2 + Val(txtNilaiTugas.Text) * 0.2 + Val(txtNilaiUTS.Text) * 0.3 + (txtNilaiUAS.Text) * 0.3 Then
-            If lblNilaiAngka.Text >= 90 Then
+        lblNilaiAngka.Text = Val(txtNilaiAbsen.Text) * 0.2 + Val(txtNilaiTugas.Text) * 0.2 + Val(txtNilaiUTS.Text) * 0.3 + (txtNilaiUAS.Text) * 0.3
+        If lblNilaiAngka.Text >= 90 Then
             lblNIlaiHuruf.Text = "A"
             lblKeterangan.Text = "Sangat Memuaskan"
         ElseIf lblNilaiAngka.Text >= 80 Then
